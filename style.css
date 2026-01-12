@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.arimo-font-style {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.left-buttons,
+.right-buttons {
+  display: flex;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-buttons button {
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  background-color: rgba(30, 30, 30, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  color: white;
+}
+
+.pause-button,
+.level-button {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.pause-button img,
+.level-button,
+.right-buttons img {
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.level-button img {
+  padding-right: 13px;
+}
+
+.right-buttons button {
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+.timer-container {
+  height: 100vh;
+}
+
+.time {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  font-size: 25em;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro-Timer</title>
+    <!-- THIS IS THE CSS LINK -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- THIS IS THE FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- HERE THE FONT LINK ENDS -->
+  </head>
+  <body class="arimo-font-style">
+    <nav class="navigation-buttons">
+      <span class="left-buttons">
+        <li class="pause-button">
+          <button><img src="./assets/pause.png" alt="" /></button>
+        </li>
+        <li>
+          <button class="level-button">
+            <img src="./assets/trophy.png" alt="" /> Lv 1
+          </button>
+        </li>
+        <!-- <li><button></button></li> -->
+      </span>
+      <div>
+        <input class="nav-input" type="text" value="Leave Your Thaught Here" />
+      </div>
+      <span class="right-buttons">
+        <li>
+          <button><img src="./assets/threedot-icon.png" alt="" /></button>
+        </li>
+        <li>
+          <button><img src="./assets/statistics-icon.png" alt="" /></button>
+        </li>
+        <li>
+          <button><img src="./assets/settings-icon.png" alt="" /></button>
+        </li>
+      </span>
+    </nav>
+
+    <div class="timer-container">
+      <div class="timer">
+        <div class="time">
+          <span class="minutes">25</span>
+          <span class="colon">:</span>
+          <span class="seconds">00</span>
+        </div>
+      </div>
+    </div>
+
+    <section></section>
+  </body>
+</html>
