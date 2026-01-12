@@ -25,7 +25,8 @@ body {
   justify-content: space-between;
 }
 
-.navigation-buttons button {
+.navigation-buttons button,
+.nav-input {
   border: none;
   font-size: 20px;
   cursor: pointer;
@@ -37,14 +38,16 @@ body {
 }
 
 .pause-button,
-.level-button {
+.level-button,
+.nav-input {
   margin-top: 16px;
   margin-left: 16px;
 }
 
 .pause-button img,
 .level-button,
-.right-buttons img {
+.right-buttons img,
+.nav-input {
   padding: 13px;
   display: flex;
   justify-content: center;
