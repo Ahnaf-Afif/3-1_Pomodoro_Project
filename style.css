@@ -26,7 +26,8 @@ body {
 }
 
 .navigation-buttons button,
-.nav-input {
+.nav-input,
+footer button {
   border: none;
   font-size: 20px;
   cursor: pointer;
@@ -48,10 +49,23 @@ body {
   margin-left: 16px;
 }
 
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer button {
+  margin-bottom: 16px;
+  margin-right: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .pause-button img,
 .level-button,
 .right-buttons img,
-.nav-input {
+.nav-input,
+.footer img {
   padding: 13px;
   display: flex;
   justify-content: center;
@@ -69,7 +83,7 @@ body {
 }
 
 .timer-container {
-  height: 100vh;
+  height: 80vh;
 }
 
 .time {
