@@ -37,6 +37,10 @@ body {
   color: white;
 }
 
+.nav-input {
+  width: 100%;
+}
+
 .pause-button,
 .level-button,
 .nav-input {
